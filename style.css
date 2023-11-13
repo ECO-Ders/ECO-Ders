@@ -1,0 +1,260 @@
+:root{
+    --main-c:#fd792d;
+    --border-r: 1.2rem;
+    
+    
+}
+
+
+.imagenes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.item-services-sectionone{
+    display: flex;
+    
+}
+
+.item-services-sectiontwo{
+    
+}
+
+
+.title-services{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding-left: 2%;
+    width: 50vh;
+}
+
+.extra{
+    padding-left: 10vh;
+}
+
+/** Estilos Generales**/
+
+
+h2{
+    font-size: 3.5rem;
+    justify-content: center;
+}
+
+
+/* BUTTOM 1*/
+
+.extra {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 10%;
+    
+}
+
+.extraone {
+    display: none;
+}
+
+
+
+input[type="checkbox"] {
+    height: 1em;
+    display: block;
+    appearance: none;
+}
+
+label {
+    position: relative;
+    padding: 2%;
+    background-color: lightgreen;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+label::before {
+    content: 'Read More';
+}
+
+input[type="checkbox"]:checked ~ label::before {
+    content: 'Read Less';
+}
+.dots:has(~ input[type="checkbox"]:checked ) {
+    display: none;
+}
+
+.extraone:has(~ input[type="checkbox"]:checked ) {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 48vh;
+    height: 22.5vh;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* BUTTOM 2*/
+.extra {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 10%;
+}
+
+.extratwo {
+    display: none;
+}
+
+
+
+input[type="checkbox"] {
+    height: 1em;
+    display: block;
+    appearance: none;
+}
+
+label {
+    position: relative;
+    padding: 2%;
+    background-color: lightgreen;
+    color: #fff;
+    cursor: pointer;
+}
+
+label::before {
+    content: 'Read More';
+}
+
+input[type="checkbox"]:checked ~ label::before {
+    content: 'Read Less';
+}
+.dots:has(~ input[type="checkbox"]:checked ) {
+    display: none;
+}
+
+.extratwo:has(~ input[type="checkbox"]:checked ) {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 48vh;
+    height: 22.5vh;
+    padding-left: 3.5vh;
+    text-align: justify;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* BUTTOM 3*/
+
+.extrathree {
+    display: none;
+}
+
+
+
+input[type="checkbox"] {
+    height: 1em;
+    display: block;
+    appearance: none;
+}
+
+label {
+    position: relative;
+    padding: 2%;
+    background-color: lightgreen;
+    color: #fff;
+    cursor: pointer;
+}
+
+label::before {
+    content: 'Read More';
+}
+
+input[type="checkbox"]:checked ~ label::before {
+    content: 'Read Less';
+}
+.dots:has(~ input[type="checkbox"]:checked ) {
+    display: none;
+}
+
+.extrathree:has(~ input[type="checkbox"]:checked ) {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 48vh;
+    height: 22.5vh;
+    padding-left: 3.5vh;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* BUTTOM 4*/
+
+.extrafour {
+    display: none; 
+}
+
+input[type="checkbox"] {
+    height: 2vh;
+    display: flex;
+}
+
+label {
+    background-color: lightgreen;
+    color: #fff; 
+}
+
+label::before {
+    content: 'Read More';
+}
+
+input[type="checkbox"]:checked ~ label::before {
+    content: 'Read Less';
+}
+
+.dots:has(~ input[type="checkbox"]:checked ) {
+    display: none;
+}
+
+.extrafour:has(~ input[type="checkbox"]:checked ) {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 48vh;
+    height: 22.5vh;
+    padding-left: 3.5vh;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
